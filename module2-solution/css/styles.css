@@ -1,0 +1,117 @@
+body{
+	font-family: 'Oxygen', sans-serif;	
+}
+h1{
+	text-align: center;
+}
+
+.chicken{
+	width: 32%;
+	background-color: #b2b2b2;
+	border: 1px solid #3b3a30;
+	padding: 40px 10px 10px 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+.beef{
+	width: 32%;
+	background-color: #b2b2b2;
+	border: 1px solid #3b3a30;
+	padding: 40px 10px 10px 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+.sushi {
+	width: 32%;
+	background-color: #b2b2b2;
+	border: 1px solid #3b3a30;
+	padding: 40px 10px 10px 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+.tag-chicken{
+	background-color: #e06377;
+	border: 1px solid #3b3a30;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 5px 30px 5px 30px;
+	margin: 0;
+	box-sizing: border-box;
+}
+.tag-beef{
+	background-color: #ffef96;
+	border: 1px solid #3b3a30;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 5px 30px 5px 30px;
+	margin: 0;
+	box-sizing: border-box;
+}
+.tag-sushi{
+	background-color: #77a8a8;
+	border: 1px solid #3b3a30;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	padding: 5px 30px 5px 30px;
+	margin: 0;
+	box-sizing: border-box;
+}
+@media (min-width: 992px){
+.chicken{
+	width: 30%;
+	box-sizing: border-box;
+}
+.beef{
+	width: 30%;
+	box-sizing: border-box;
+}
+.sushi{
+	width: 30%;
+	box-sizing: border-box;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.chicken{
+	width: 47%;
+	box-sizing: border-box;
+	margin: 10px;
+}
+.beef{
+	width: 47%;
+	box-sizing: border-box;
+	margin: 10px;
+}
+.sushi{
+	width: 96%;
+	box-sizing: border-box;
+	margin: 10px;
+}
+}
+
+@media (max-width: 767px){
+.chicken{
+	width: 90%;
+	box-sizing: border-box;
+	margin: 10px;
+}
+.beef{
+	width: 90%;
+	box-sizing: border-box;
+	margin: 10px;
+}
+.sushi{
+	width: 90%;
+	box-sizing: border-box;
+	margin: 10px;
+}
+}
